@@ -11,3 +11,28 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.filter {
+  display: flex;
+flex-direction: column;
+  justify-content: center;
+}
+h3 {
+  padding-top: 15px;
+}
+.bottle {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-transform: uppercase;
+  cursor: pointer;
+  align-self: center;
+}
+.booze {
+  display: flex;
+  justify-content: center;
+}
+.mixers {
+  display: flex;
+  justify-content: center;
+}
