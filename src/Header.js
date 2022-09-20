@@ -7,8 +7,8 @@ const Header = () => {
         <li><strong>WhatchaWant</strong></li>
       </ul>
       <ul>
-        <li><a href="#">Filter</a></li>
-        <li><a href="#">Random</a></li>
+        <li><a href="/filter">Filter</a></li>
+        <li><a href="/">Random</a></li>
       </ul>
     </nav>
   )

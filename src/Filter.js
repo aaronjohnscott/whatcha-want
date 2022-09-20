@@ -73,12 +73,15 @@ const Filter = () => {
   
   const drinks = () => {
     const drinkArray = searchMixers(listMixers)
+    
     let otherThing = drinkArray.map((cocktail)=>{
+      const path = `/filter/${cocktail.id}`
           return (
-            <div key={cocktail.name}>
-                      <h1>{cocktail.name}</h1>
-                      <img src={cocktail.image} />
-                      <p>{cocktail.instructions}</p>
+            <div className="cocktail" key={cocktail.name}>
+              <a href={path} >
+                      <img className="single-drink" src={cocktail.image} />
+                      <h4 className="drinkHeader">{cocktail.name}</h4>
+              </a>
             </div>
 
           )
@@ -179,7 +182,9 @@ const Filter = () => {
 
     </div>
     <button onClick={drinks}>Discover</button>
+    <div className="drink-holder">
     { display }
+    </div>
     </>
   )
 }

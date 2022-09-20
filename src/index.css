@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  padding: 0;
 }
 
 code {
@@ -16,6 +17,7 @@ code {
   display: flex;
 flex-direction: column;
   justify-content: center;
+  flex-wrap: wrap;
 }
 h3 {
   padding-top: 15px;
@@ -35,4 +37,23 @@ h3 {
 .mixers {
   display: flex;
   justify-content: center;
+}
+
+.single-drink {
+  max-width: 250px;
+}
+
+.drink-holder{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.drinkHeader {
+  padding-bottom: 0px;
+}
+
+.cocktail img {
+  padding: 0;
+  margin: 0;
 }

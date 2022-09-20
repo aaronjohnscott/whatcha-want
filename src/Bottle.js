@@ -8,7 +8,7 @@ const Bottle = (props) => {
    }
   return (
     <div className="bottle" style={{color:color}} onClick={allOfIt} >
-        <img src={props.imgSource} alt={props.altText} />
+        <img  src={props.imgSource} alt={props.altText} />
         {props.name}
     </div>
   )
