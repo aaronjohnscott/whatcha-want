@@ -3,6 +3,8 @@ import { cocktails } from './myCocktailData'
 import Header from "./Header"
 import Random from './Random';
 import Filter from './Filter';
+import { ChakraProvider } from '@chakra-ui/react'
+
 import {
   BrowserRouter,
   Routes,
@@ -26,6 +28,8 @@ function App() {
           </Routes>
         </BrowserRouter>
       </div>
+
+
   );
 }
 

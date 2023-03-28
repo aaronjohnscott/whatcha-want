@@ -95,11 +95,11 @@ const Filter = () => {
       <div className="booze">
       <Bottle  
         doThis={()=>trial("vodka")}
-        imgSource="/vodkaIcon2.png" 
+        imgSource="/vodka.png" 
         altText="vodka bottle" 
         name="vodka"/>
         <Bottle 
-        imgSource="/vodkaIcon2.png" 
+        imgSource="/rum.png" 
         doThis={()=>trial("rum")} 
         altText="rum bottle" 
         name="rum" />
@@ -119,7 +119,7 @@ const Filter = () => {
         altText="whiskey bottle" 
         name="whiskey" />
         <Bottle 
-        imgSource="/vodkaIcon2.png" 
+        imgSource="/tequila.png" 
         doThis={()=>trial("tequila")} 
         altText="tequila bottle" 
         name="tequila" />
