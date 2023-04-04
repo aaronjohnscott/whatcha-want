@@ -1,10 +1,10 @@
 import React from 'react'
 
 const Bottle = (props) => {
-   const [color, setColor] = React.useState('white')
+   const [color, setColor] = React.useState('black')
    const allOfIt = () => {
     props.doThis()
-    setColor(color=>color==='white'?'red':'white')
+    setColor(color=>color==='black'?'red':'black')
    }
   return (
     <div className="bottle" style={{color:color}} onClick={allOfIt} >
@@ -15,8 +15,3 @@ const Bottle = (props) => {
 }
 
 export default Bottle
-
-// ()=>{setColor(color=>{
-//     return color === 'red' ? 'black' : 'red'
-// })
-// }

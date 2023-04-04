@@ -1,3 +1,4 @@
+import { Stack, Box, Flex } from '@chakra-ui/react'
 import React from 'react'
 import { useState } from 'react'
 import Bottle from './Bottle'
@@ -92,13 +93,16 @@ const Filter = () => {
   return (
     <>
     <div className="filter">
-      <div className="booze">
-      <Bottle  
+
+    <Flex direction="column" align="center" justify="center">
+
+    
+      <Bottle 
         doThis={()=>trial("vodka")}
         imgSource="/vodka.png" 
         altText="vodka bottle" 
         name="vodka"/>
-        <Bottle 
+      <Bottle 
         imgSource="/rum.png" 
         doThis={()=>trial("rum")} 
         altText="rum bottle" 
@@ -133,7 +137,8 @@ const Filter = () => {
         doThis={()=>trial("gin")} 
         altText="gin bottle" 
         name="gin" />
-      </div>
+
+    </Flex>
       <h3>BASE LIQUORS</h3>
       <div className="mixers">
         <Bottle 
@@ -177,6 +182,7 @@ const Filter = () => {
           altText="triple sec bottle" 
           name="OJ" />
         </div>
+
         <h3>MIXERS</h3>
 
 
