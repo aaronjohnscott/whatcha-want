@@ -1,17 +1,24 @@
-import React from 'react'
+import React from "react";
+import { HStack, Box, Flex, Heading, Image } from "@chakra-ui/react";
 
 const Header = () => {
   return (
-    <nav>
-      <ul>
-        <li><strong>WhatchaWant</strong></li>
-      </ul>
-      <ul>
-        <li><a href="/filter">Filter</a></li>
-        <li><a href="/">Random</a></li>
-      </ul>
-    </nav>
-  )
-}
+    <Box borderBottom="2px solid black" bg="white" w="100%" p={4} color="white">
+      <Flex alignItems="center" justifyContent="space-between">
+        <HStack>
+          <Image src="/icon.png" alt="Picture" boxSize="50px" />
+          <Heading as="h1" color="black" size="lg" fontFamily="Gruppo">
+            SIP SELECTOR
+          </Heading>
+        </HStack>
 
-export default Header
+        <Box>
+          <p></p>
+          {/* add any additional header elements here */}
+        </Box>
+      </Flex>
+    </Box>
+  );
+};
+
+export default Header;
