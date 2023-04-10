@@ -2,60 +2,41 @@ import React from 'react';
 import {  Stack, Box } from '@chakra-ui/react';
 
 const Trial = () => {
+    const cocktails = [ 'rum', 'tequila', 'vodka', 'rum', 'tequila', 'vodka' ]
+    const mixers = [ 'rum', 'tequila', 'vodka', 'rum', 'tequila', 'vodka', 'rum', 'tequila', 'vodka', 'rum', 'tequila', 'vodka']
+    const renderedLiquors = cocktails.map((cocktail) => {
+      const pic = cocktail + '.png'
+        return (
+            <Box className="cocktailHover" width="18%" height="18%" minWidth="150px" maxWidth={250} onClick={(e)=>changeAppearance(e)}>
+                <img  src={pic} alt={cocktail} />
+                <p className='overlay'>{cocktail}</p>
+            </Box>
+        )
+    })
+    const renderedMixers = mixers.map((cocktail) => {
+      const pic = cocktail + '.png'
+        return (
+            <Box className="cocktailHover" width="20%" height="20%" minWidth="100px" maxWidth={250} onClick={(e)=>changeAppearance(e)}>
+                <img  src={pic} alt={cocktail} />
+                <p className='overlay'>{cocktail}</p>
+            </Box>
+        )
+    })
     const changeAppearance = (e) => {
         const element = e.target;
         element.classList.toggle("clicked")
     }
     return (
       <>
-      <h1>Liquor</h1>
-      <Stack direction="row" alignItems="center" flexWrap="wrap" justifyContent="center">
-        <Box className="cocktailHover" width="200px" height="200px"  onClick={(e)=>changeAppearance(e)} >
-          <img src="/rum.png"  alt='vodka bottle'/>
-          <p className='overlay'>Rum</p>
-        </Box>
-
-        <Box   className="cocktailHover" width="200px" height="200px" onClick={(e)=>changeAppearance(e)}>
-        <img  src="/tequila.png"  alt='vodka bottle'/>
-        <p className='overlay'>Tequila</p>
-        </Box>
-        <Box  className="cocktailHover" width="200px" height="200px" onClick={(e)=>changeAppearance(e)}>
-          <img src="/vodka.png"  alt='vodka bottle'/>
-          <p className='overlay'>Vodka</p>
-        </Box>
-        
+      <div className="top"></div>
+      <Stack mx="auto" direction="row" width='80%' alignItems="center" flexWrap="wrap" justifyContent="center">
+        { renderedLiquors}
       </Stack>
-      <Stack direction="row" alignItems="center" flexWrap="wrap" justifyContent="center">
-        <Box className="cocktailHover" width="200px" height="200px" onClick={(e)=>changeAppearance(e)}>
-        <img src="/rum.png"  alt='vodka bottle'/>
-        <p className='overlay'>Rum</p>
-        </Box>
-
-        <Box   className="cocktailHover" width="200px" height="200px" onClick={(e)=>changeAppearance(e)}>
-        <img  src="/tequila.png"  alt='vodka bottle'/>
-        <p className='overlay'>Tequila</p>
-        </Box>
-        <Box  className="cocktailHover" width="200px" height="200px" onClick={(e)=>changeAppearance(e)}>
-          <img src="/vodka.png"  alt='vodka bottle'/>
-          <p className='overlay'>Vodka</p>
-        </Box>
-        
-      </Stack>
-      <Stack direction="row" alignItems="center" flexWrap="wrap" justifyContent="center">
-        <Box className="cocktailHover" width="200px" height="200px" onClick={(e)=>changeAppearance(e)}>
-        <img src="/rum.png"  alt='vodka bottle'/>
-        <p className='overlay'>Rum</p>
-        </Box>
-
-        <Box   className="cocktailHover" width="200px" height="200px" onClick={(e)=>changeAppearance(e)}>
-        <img  src="/tequila.png"  alt='vodka bottle'/>
-        <p className='overlay'>Tequila</p>
-        </Box>
-        <Box  className="cocktailHover" width="200px" height="200px" onClick={(e)=>changeAppearance(e)} >
-          <img src="/vodka.png"  alt='vodka bottle'/>
-          <p className='overlay'>Vodka</p>
-        </Box>
-        
+      <h1 className="title">Liquor</h1>
+      <h1 className="title">+</h1>
+      <h1 className="title">Mixers</h1>
+      <Stack mx="auto" direction="row" width='75%' alignItems="center" flexWrap="wrap" justifyContent="center">
+        { renderedMixers}
       </Stack>
       </>
 

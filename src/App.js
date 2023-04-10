@@ -3,9 +3,9 @@ import { cocktails } from './myCocktailData'
 import Header from "./Header"
 import Random from './Random';
 import Filter from './Filter';
-import { ChakraProvider, Grid } from '@chakra-ui/react'
+import { ChakraProvider } from '@chakra-ui/react'
 import './index.css'
-import Grid2 from './Grid2';
+
 
 import {
   BrowserRouter,
@@ -24,10 +24,10 @@ function App() {
     <ChakraProvider>
       <div className="App">
         <Header />
-        <Trial />
           <BrowserRouter  paddingTop="20px" >
             <Routes>
-              <Route path="/" element={<Random cocktail={randomCocktail()} />} />
+              <Route path="/" element={<Trial />} />
+              <Route path="/random" element={<Random cocktail={randomCocktail()} />} />
               <Route path="filter" element={<Filter />} />
               <Route path="/filter/:drink" element={<Drink />} />
             </Routes>

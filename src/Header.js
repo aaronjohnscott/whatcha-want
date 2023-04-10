@@ -3,7 +3,7 @@ import { HStack, Box, Flex, Heading, Image } from "@chakra-ui/react";
 
 const Header = () => {
   return (
-    <Box borderBottom="2px solid black" bg="white" w="100%" p={4} color="white">
+    <Box className="header" borderBottom="2px solid black" bg="white" w="100%" p={4} color="white">
       <Flex alignItems="center" justifyContent="space-between">
         <HStack>
           <Image src="/icon.png" alt="Picture" boxSize="50px" />

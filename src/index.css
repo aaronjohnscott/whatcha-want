@@ -9,9 +9,16 @@ body {
   -moz-osx-font-smoothing: grayscale;
   padding: 0;
   background-color: black;
+  padding-top: 30px;
 }
 
-
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+}
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
@@ -55,9 +62,7 @@ code {
   margin: 0;
 }
 
-.cocktailHeader {
 
-}
 
 
 /* Set up the container element */
@@ -107,25 +112,19 @@ code {
 }
 
 
-.overlay h1 {
-  font-size: 3em;
-  margin: 0;
-  padding: 0;
-}
 
-.bottle {
-  max-width: 200px;
+.title {
+  font-family: 'Gruppo', cursive;
+  font-size: 1.75em;
   text-align: center;
-  width: 100%;
+  color: black;
+  padding: 0;
+  margin: 0;
+  text-transform: uppercase;
+
 }
 
-.booze {
-  display: flex;
-  justify-content: center;
-  flexwrap: wrap;
-  align-content: center;
+.top {
+  margin-top: 60px; 
 }
 
-.red {
-  color: red;
-}
