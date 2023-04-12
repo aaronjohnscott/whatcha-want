@@ -11,7 +11,6 @@ const Header = () => {
             SIP SELECTOR
           </Heading>
         </HStack>
-
         <Box>
           <p></p>
           {/* add any additional header elements here */}

@@ -34,25 +34,14 @@ function ExampleModal({list}) {
         )
     })
                 
-
-
-//   const renderedMixers = list.map((cocktail) => {
-//     // const pic = cocktail + '.png'
-//     const pic = "vodka.png"
-//       return (
-//           <Box marginTop={3} className="cocktailHover" style={{cursor: "pointer"}} width="20%" height="20%" minWidth="100px" maxWidth={250} onClick={onOpenInner}>
-//               <img  src={pic} alt={cocktail} />
-//               <p className='overlay'>{cocktail}</p>
-//           </Box>
-//       )
-//   })
-
   return (
     <>
-              <img src="shaker.png" alt="shaker" onClick={()=>{
-                onOpenOuter()
-                filterDrinkList()
-              }} />
+      <Button colorScheme='green' size="lg"
+      onClick={()=>{
+        onOpenOuter()
+        filterDrinkList()
+      }} 
+      >Search</Button>
 
       <Modal isOpen={isOpenOuter} onClose={onCloseOuter} size="4xl">
         <ModalOverlay />

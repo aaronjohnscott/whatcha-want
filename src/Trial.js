@@ -7,9 +7,8 @@ import { useState } from 'react'
 const Trial = () => {
   const [list, setList] = React.useState([])
   const [listMixers, setListMixers] = useState([])
-  const [display, setDisplay] = useState('')
 
-    const cocktails = [ 'Rum', 'Tequila', 'Vodka', "Gin", "Whiskey", "Brandy", "Bourbon", "Scotch", "Mezcal", "Cognac"]
+    const cocktails = [ 'Vodka','Tequila',   "Whiskey", "Bourbon", "Gin", "Brandy", "Rum", "Scotch", "Cognac"]
     const mixers = [ "grenadine", "lemon juice", "simple syrup", "soda water", "tonic water", "ginger ale", 
     "club soda", "cranberry juice", "orange juice", "pineapple juice"]
 
@@ -24,10 +23,10 @@ const Trial = () => {
         changeAppearance(e)
     }
     const renderedLiquors = cocktails.map((cocktail) => {
-      // const pic = cocktail + '.png'
-      const pic = "vodka.png"
+      const pic = cocktail + '.png'
+      // const pic = "tequila.png"
         return (
-            <Box className="cocktailHover" width="18%" height="18%" minWidth="150px" maxWidth={250} onClick={liquor}>
+            <Box padding="3px" className="cocktailHover" objectFit="cover" width="12%" height="12%" minWidth="120px" maxWidth={250} onClick={liquor}>
                 <img  src={pic} alt={cocktail} />
                 <p className='overlay'>{cocktail}</p>
             </Box>
@@ -37,7 +36,7 @@ const Trial = () => {
       // const pic = cocktail + '.png'
       const pic = "vodka.png"
         return (
-            <Box marginTop={3} className="cocktailHover" width="20%" height="20%" minWidth="100px" maxWidth={250} onClick={(e)=>changeAppearance(e)}>
+            <Box padding="3px" className="cocktailHover" width="12%" height="12%" minWidth="120px" maxWidth={250} onClick={(e)=>changeAppearance(e)}>
                 <img  src={pic} alt={cocktail} />
                 <p className='overlay'>{cocktail}</p>
             </Box>
@@ -49,24 +48,43 @@ const Trial = () => {
     }
     return (
       <>
-      <div className="top"></div>
-      <Stack mx="auto" direction="row" width='80%' alignItems="center" flexWrap="wrap" justifyContent="center">
-        { renderedLiquors}
-      </Stack>
-      <div className="shaker">
-        <div>
+      <div className="col-try">
+      <Stack width="40%">
+          <Stack mx="auto" direction="row"  alignItems="center" flexWrap="wrap" justifyContent="center">
+              <Box>
+                <h1 className="title">CHOOSE YOUR LIQUOR</h1>
+              </Box>
+          </Stack>
+          <Stack mx="auto" direction="row"  alignItems="baseline" flexWrap="wrap" justifyContent="space-between">
+            { renderedLiquors}
+          </Stack>
+        </Stack>
 
-          <ExampleModal list={list}/>
-        </div>
-        <div>
+        <Stack padding={30}   className='middle'>
+            <ExampleModal className='middle' list={list}/>
+        </Stack>
+
+        <Stack width="40%">
+          <Stack mx="auto" direction="row" alignItems="center" flexWrap="wrap" justifyContent="center">
+              <Box>
+                <h1 className="title">CHOOSE YOUR MIXERS</h1>
+              </Box>
+          </Stack>
+
+          <Stack mx="auto" direction="row"  alignItems="baseline" flexWrap="wrap" justifyContent="space-between">
+            { renderedMixers}
+          </Stack>
+
+        </Stack>
+      </div>
+      <div className="shaker">
+
+        {/* <div>
           <h1 className="title">Liquor</h1>
           <h1 className="title">+</h1>
           <h1 className="title">Mixers</h1>
-        </div>
+        </div> */}
       </div>
-      <Stack mx="auto" direction="row" width='75%' alignItems="center" flexWrap="wrap" justifyContent="center">
-        { renderedMixers}
-      </Stack>
       </>
 
     );
