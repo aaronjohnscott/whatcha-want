@@ -23,7 +23,7 @@ const Trial = () => {
         changeAppearance(e)
     }
     const renderedLiquors = cocktails.map((cocktail) => {
-      const pic = '/public/' + cocktail + '.png'
+      const pic = '/' + cocktail + '.png'
       // const pic = "tequila.png"
         return (
             <Box padding="3px" className="cocktailHover" objectFit="cover" width="12%" height="12%" minWidth="120px" maxWidth={250} onClick={liquor}>
