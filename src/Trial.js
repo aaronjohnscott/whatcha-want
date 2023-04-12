@@ -23,7 +23,7 @@ const Trial = () => {
         changeAppearance(e)
     }
     const renderedLiquors = cocktails.map((cocktail) => {
-      const pic = '/static/images/' + cocktail + '.png'
+      const pic = '/static/img/' + cocktail + '.png'
       // const pic = "tequila.png"
         return (
             <Box padding="3px" className="cocktailHover" objectFit="cover" width="12%" height="12%" minWidth="120px" maxWidth={250} onClick={liquor}>
@@ -34,7 +34,7 @@ const Trial = () => {
     })
     const renderedMixers = mixers.map((cocktail) => {
       // const pic = cocktail + '.png'
-      const pic = "vodka.png"
+      const pic = "/static/img/vodka.png"
         return (
             <Box padding="3px" className="cocktailHover" width="12%" height="12%" minWidth="120px" maxWidth={250} onClick={(e)=>changeAppearance(e)}>
                 <img  src={pic} alt={cocktail} />
