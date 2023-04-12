@@ -46,8 +46,9 @@ function ExampleModal({list}) {
       <Modal isOpen={isOpenOuter} onClose={onCloseOuter} size="4xl">
         <ModalOverlay />
         <ModalContent>
-          <ModalHeader>Outer Modal Title</ModalHeader>
-          <ModalBody>
+          <ModalHeader textAlign="center" textTransform="uppercase" fontSize="4xl" fontWeight="bold"  fontFamily="gruppo" letterSpacing="2px" >
+          Drinks</ModalHeader>
+          <ModalBody> 
                 <div className="inner-modal-flex">
                         {renderedCocktails}
                 </div>
@@ -75,7 +76,6 @@ function ExampleModal({list}) {
             <Button variant="ghost" mr={3} onClick={onCloseOuter}>
               Close
             </Button>
-            <Button colorScheme="blue">Save</Button>
           </ModalFooter>
         </ModalContent>
       </Modal>
