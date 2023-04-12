@@ -23,11 +23,12 @@ const Trial = () => {
         changeAppearance(e)
     }
     const renderedLiquors = cocktails.map((cocktail) => {
-      const pic = '/static/img/' + cocktail + '.png'
+      const pic = '/static/img/' + cocktail.toLowerCase() + '.png'
+      const pic2 = pic
       // const pic = "tequila.png"
         return (
             <Box padding="3px" className="cocktailHover" objectFit="cover" width="12%" height="12%" minWidth="120px" maxWidth={250} onClick={liquor}>
-                <img  src={pic} alt={cocktail} />
+                <img  src={pic2} alt={cocktail} />
                 <p className='overlay'>{cocktail}</p>
             </Box>
         )
