@@ -1,5 +1,5 @@
 
-export const cocktails = [
+const cocktailList = [
     {
         "id": 164,
         "name": "Brainteaser",
@@ -4827,7 +4827,6 @@ export const cocktails = [
         "instructions": "Mix all ingredients together. Slowly and gently. Works best if ice is added to punch bowl and soda's are very cold.",
         "ingredients": [
             "Vodka",
-            "Vodka",
             "Mountain Dew",
             "Energy Drink",
             "Juice - Lemon",
@@ -4835,7 +4834,6 @@ export const cocktails = [
         ],
         "amounts": [
             "1 fifth",
-            "1 fifth Smirnoff red label",
             "2 L",
             "2 L",
             "1 small bottle",
@@ -4966,15 +4964,13 @@ export const cocktails = [
         "instructions": "mix all ingredients into bowl keep iced stir frequently",
         "ingredients": [
             "Vodka",
-            "Vodka",
             "Peach schnapps",
             "Juice - Orange",
             "Juice - Cranberry"
         ],
         "amounts": [
             "750 ml",
-            "1750 ml",
-            "1750 ml",
+            "750 ml",
             "1 gal",
             "1 gal"
         ]
@@ -8120,22 +8116,6 @@ export const cocktails = [
         ]
     },
     {
-        "id": 442,
-        "name": "Rum Screwdriver",
-        "type": "Ordinary Drink",
-        "image": "http://www.thecocktaildb.com/images/media/drink/pwl7v81504886372.jpg",
-        "glass": "Highball glass",
-        "instructions": "Pour rum into a highball glass over ice cubes. Add orange juice, stir, and serve.",
-        "ingredients": [
-            "Rum - Light",
-            "Juice - Orange"
-        ],
-        "amounts": [
-            "1 1/2 oz",
-            "5 oz"
-        ]
-    },
-    {
         "id": 457,
         "name": "Screwdriver",
         "type": "Ordinary Drink",
@@ -8502,6 +8482,4 @@ export const cocktails = [
     }
 ]
 
-export default {
-    cocktails
-  }
+export default cocktailList

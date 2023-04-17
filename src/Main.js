@@ -31,20 +31,19 @@ const Trial = () => {
   );
 
     return (
-      <>
       <div className="col-try">
-        <Stack width="44%">
+        <Stack  >
           <Stack mx="auto" direction="row"  alignItems="center" flexWrap="wrap" justifyContent="center">
               <Box>
                 <h1 className="title">CHOOSE YOUR LIQUOR</h1>
               </Box>
           </Stack>
-          <Stack mx="auto" direction="row"  alignItems="baseline" flexWrap="wrap" justifyContent="space-between">
+          <Stack mx="auto" direction="row"  alignItems="center" flexWrap="wrap" justifyContent="center">
             { renderedLiquors }
           </Stack>
         </Stack>
 
-        <Stack padding={30}   className='middle'>
+        <Stack padding="12px"   className='middle'>
             <ExampleModal className='middle' mixers={listMixers} list={list}/>
         </Stack>
 
@@ -55,22 +54,12 @@ const Trial = () => {
               </Box>
           </Stack>
 
-          <Stack mx="auto" direction="row"  alignItems="baseline" flexWrap="wrap" justifyContent="space-between">
+          <Stack mx="auto" direction="row"  alignItems="center" flexWrap="wrap" justifyContent="center">
             { renderedMixers}
           </Stack>
 
         </Stack>
       </div>
-      <div className="shaker">
-
-        {/* <div>
-          <h1 className="title">Liquor</h1>
-          <h1 className="title">+</h1>
-          <h1 className="title">Mixers</h1>
-        </div> */}
-      </div>
-      </>
-
     );
   };
 
