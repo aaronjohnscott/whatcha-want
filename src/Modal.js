@@ -13,17 +13,16 @@ const ExampleModal = ({list, mixers}) => {
       ingredient = ingredient.toUpperCase()
       if(ingredient.includes('JUICE')) ingredient = ingredient.replace('JUICE - ', '') + ' JUICE'
       if(ingredient.includes('PEEL')) ingredient = ingredient.replace('PEEL - ', '') + ' PEEL'
-      return <Text>{ingredient}</Text>
+      return <Text margin="0" fontSize="xs">{ingredient}</Text>
     })
   const amounts = innerDrink.amounts.map((amount) => {
-      return <Text>{amount} -</Text>
+      return <Text margin="0" fontSize="xs">{amount} -</Text>
     })
 
   const filterDrinkList = () => {
       const firstArray = list
       const cocktails = cocktailList
       const arrayList = []
-      console.log(list)
       cocktails.map((drink) => {
         const secondArray = drink.ingredients
         for (let s1 of firstArray) {
@@ -35,8 +34,35 @@ const ExampleModal = ({list, mixers}) => {
         }
         return null
       }) 
+      const filteredMixers = []
+      mixers.map((mixer)=>{
+        if(mixer.includes('Juice')) {
+          filteredMixers.push(('Juice - ' + mixer.replace(' Juice', '')).toUpperCase())
+        } else if(mixer.includes('Water')) {
+          filteredMixers.push(('Water - ' + mixer.replace(' Water', '')).toUpperCase())
+        } else {
+          filteredMixers.push(mixer.toUpperCase())
+        }
+        return null
+      })
+      console.log(filteredMixers)
+      const finalList = []
+      arrayList.map((drink) => {
+        const secondArray = drink.ingredients
+        for(let i = 0; i < secondArray.length; i++) {
+          for(let j = 0; j < filteredMixers.length; j++) {
+            if(secondArray[i].toUpperCase().includes(filteredMixers[j])) {
+              finalList.push(drink)
+            }
+          }
+        }
 
-      setFilteredDrinks([...new Set(arrayList)])
+
+        return null
+      })
+      if(finalList.length === 0) { setFilteredDrinks([...new Set(arrayList)]) } else {
+        setFilteredDrinks([...new Set(finalList)])
+      }
     }
 
     const renderedCocktails = filteredDrinks.map((cocktail) => {  
@@ -80,14 +106,17 @@ const ExampleModal = ({list, mixers}) => {
             </div>
 
             {/* SECOND MODAL  - MODAL WITHIN A MODAL  */}
-            <Modal isOpen={isOpenInner} onClose={onCloseInner}>
+            <Modal isOpen={isOpenInner} onClose={onCloseInner} size="3xl">
               <ModalOverlay />
               <ModalContent>
                 <ModalHeader textAlign="center" textTransform="uppercase">{innerDrink.name}</ModalHeader>
                 <ModalBody>
                     {/* <img src={innerDrink.image} alt={innerDrink.name}/> */}
-              <Flex>
+              <Flex alignItems="center">
               <Image
+                boxShadow="0 0 10px 0 rgba(0,0,0,0.5)"
+                border="2px solid black"
+                borderRadius="10px"
                 src={innerDrink.image}
                 alt={innerDrink.name}
                 width="50%"
@@ -99,9 +128,9 @@ const ExampleModal = ({list, mixers}) => {
               </Text>
             </Flex>
             <Box mt={4}>
-              <Text fontWeight="bold">Ingredients:</Text>
+              <Text fontWeight="bold" margin="0" textTransform="uppercase" textAlign="center">Ingredients</Text>
               <Flex>
-                <Box textAlign="right" paddingRight="4px" width="45%">
+                <Box width="50%" textAlign="right" paddingRight="4px" >
                 {amounts}
                 </Box>
 

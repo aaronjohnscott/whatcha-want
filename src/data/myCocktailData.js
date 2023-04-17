@@ -31,8 +31,8 @@ const cocktailList = [
             "Simple Syrup"
         ],
         "amounts": [
-            "4.5 cl",
-            "1.5 cl",
+            "4.5 parts",
+            "1.5 parts",
             "2 spoons"
         ]
     },
@@ -54,7 +54,7 @@ const cocktailList = [
             "1/2 oz",
             "1/2 oz",
             "1/2 oz",
-            "1/2 oz Bacardi",
+            "1/2 oz ",
             "1 oz"
         ]
     },
@@ -83,7 +83,7 @@ const cocktailList = [
         "type": "Homemade Liqueur",
         "image": "http://www.thecocktaildb.com/images/media/drink/upqvvp1441253441.jpg",
         "glass": "Collins Glass",
-        "instructions": "Combine all ingreds in aging container. Cover tightly and shake gently several times during the first 24 hrs. After 24 hrs, remove the lemon zest. Cover again and let stand in a cool, dark place for 2 weeks, shaking gently every other day. Strain through a wire sieve to remove the angelica root and fennel. Return to aging container, cover and let stand undisturbed in a cool dark place for 6 months. Siphon or pour clear liqueur into a sterile bottle. The cloudy dregs may be saved for cooking.",
+        "instructions": "Combine all ingreds in aging container. Cover tightly and shake gently several times during the first 24 hrs. After 24 hrs, remove the lemon zest. Cover again and let stand in a cool, dark place for 2 weeks, shaking gently every other day. Strain through a wire sieve to remove the angelica root and fennel. Return to aging container, cover and let stand undisturbed in a cool dark place for 6 months. Siphon or pour partsear liqueur into a sterile bottle. The partsoudy dregs may be saved for cooking.",
         "ingredients": [
             "Johnnie Walker",
             "Honey",
@@ -105,7 +105,7 @@ const cocktailList = [
         "type": "Ordinary Drink",
         "image": "http://www.thecocktaildb.com/images/media/drink/utypqq1441554367.jpg",
         "glass": "Cocktail glass",
-        "instructions": "Stir all ingredients (except orange peel) with ice and strain into a cocktail glass. Add the twist of orange peel and serve.",
+        "instructions": "Stir all ingredients (except orange peel) with ice and strain into a cocktail glass. Add the twist orange peel and serve.",
         "ingredients": [
             "Dry Vermouth",
             "Gin",
@@ -118,7 +118,7 @@ const cocktailList = [
             "1 oz",
             "1/4 tsp",
             "2 dashes",
-            "Twist of"
+            "twist"
         ]
     },
     {
@@ -155,9 +155,9 @@ const cocktailList = [
             "Aperol"
         ],
         "amounts": [
-            "4 cl",
-            "2 cl",
-            "4 cl"
+            "4 parts",
+            "2 parts",
+            "4 parts"
         ]
     },
     {
@@ -180,7 +180,7 @@ const cocktailList = [
         "type": "Shot",
         "image": "http://www.thecocktaildb.com/images/media/drink/sk3lr91493068595.jpg",
         "glass": "Shot glass",
-        "instructions": "1. Pour Kahlua into shot glass to about 1/2 full. 2. Using a spoon(inverted), slowly pour in the Peppermint Schnapps until glass is about 3/4 full. Done correctly, the Schnapps will flow under the Kahlua for a clear layer. 3. Again using a spoon, but this time right side up, slowly top off the glass with a layer of Bailey's. Be careful to place the spoon right at the top of the Kahlua layer and to raise it as the glass fills up. Done correctly, this will provide a layer of Bailey's floating over the Kahlua. 4. Toss it down all at once for something like a Peppermint Pattie, WITH A BANG!!! NOTE: Best if all ingredients are chilled",
+        "instructions": "1. Pour Kahlua into shot glass to about 1/2 full. 2. Using a spoon(inverted), slowly pour in the Peppermint Schnapps until glass is about 3/4 full. Done correctly, the Schnapps will flow under the Kahlua for a partsear layer. 3. Again using a spoon, but this time right side up, slowly top off the glass with a layer of Bailey's. Be careful to place the spoon right at the top of the Kahlua layer and to raise it as the glass fills up. Done correctly, this will provide a layer of Bailey's floating over the Kahlua. 4. Toss it down all at once for something like a Peppermint Pattie, WITH A BANG!!! NOTE: Best if all ingredients are chilled",
         "ingredients": [
             "Liqueur - Peppermin",
             "Kahlua",
@@ -281,26 +281,7 @@ const cocktailList = [
             "1 1/2 tsp"
         ]
     },
-    {
-        "id": 154,
-        "name": "Bobby Burns Cocktail",
-        "type": "Ordinary Drink",
-        "image": "http://www.thecocktaildb.com/images/media/drink/km6se51484411608.jpg",
-        "glass": "Cocktail glass",
-        "instructions": "Stir all ingredients (except lemon peel) with ice and strain into a cocktail glass. Add the twist of lemon peel and serve.",
-        "ingredients": [
-            "Sweet Vermouth",
-            "Scotch",
-            "Benedictine",
-            "Peel - Lemon"
-        ],
-        "amounts": [
-            "1 1/2 oz",
-            "1 1/2 oz",
-            "1 1/4 tsp",
-            "1 twist of"
-        ]
-    },
+    
     {
         "id": 100,
         "name": "Archbishop",
@@ -340,7 +321,7 @@ const cocktailList = [
             "2 1/2 oz Blended",
             "dash",
             "2 or 3",
-            "1 twist of"
+            "1 twist"
         ]
     },
     {
@@ -388,7 +369,7 @@ const cocktailList = [
         "type": "Ordinary Drink",
         "image": "http://www.thecocktaildb.com/images/media/drink/xxsuwr1439457147.jpg",
         "glass": "Cocktail glass",
-        "instructions": "Stir all ingredients (except lemon peel) with ice and strain into a cocktail glass. Add the twist of lemon peel and serve.",
+        "instructions": "Stir all ingredients (except lemon peel) with ice and strain into a cocktail glass. Add the twist lemon peel and serve.",
         "ingredients": [
             "Dubonnet Rouge",
             "Gin",
@@ -399,7 +380,7 @@ const cocktailList = [
             "1 1/2 oz",
             "3/4 oz",
             "1 dash",
-            "1 twist of"
+            "1 twist"
         ]
     },
     {
@@ -453,7 +434,7 @@ const cocktailList = [
             "Ice"
         ],
         "amounts": [
-            "5 cl",
+            "5 parts",
             "1/2",
             "4 dashes",
             "1 dl Schweppes"
@@ -531,7 +512,7 @@ const cocktailList = [
             "Chilled",
             "1 piece",
             "2 dashes",
-            "1 twist of",
+            "1 twist",
             "1 dash"
         ]
     },
@@ -639,7 +620,7 @@ const cocktailList = [
         "type": "Ordinary Drink",
         "image": "http://www.thecocktaildb.com/images/media/drink/uwvyts1483387934.jpg",
         "glass": "Cocktail glass",
-        "instructions": "Shake all ingredients (except lemon peel) with ice and strain into a cocktail glass. Top with the twist of lemon peel and serve.",
+        "instructions": "Shake all ingredients (except lemon peel) with ice and strain into a cocktail glass. Top with the twist lemon peel and serve.",
         "ingredients": [
             "Dry Vermouth",
             "Bourbon",
@@ -652,7 +633,7 @@ const cocktailList = [
             "1 oz",
             "1 1/2 tsp",
             "1 1/2 tsp",
-            "1 twist of"
+            "1 twist"
         ]
     },
     {
@@ -793,11 +774,11 @@ const cocktailList = [
         "type": "Punch / Party Drink",
         "image": "http://www.thecocktaildb.com/images/media/drink/iuwi6h1504735724.jpg",
         "glass": "Collins Glass",
-        "instructions": "Simmer 3 cups water with, sugar, cloves, cinnamon sticks, and lemon peel in a stainless steel pot for 10 minutes. Add wine heat to a \"coffee temperature\" (DO NOT BOIL) then add the brandy.",
+        "instructions": "Simmer 3 cups water with, sugar, partsoves, cinnamon sticks, and lemon peel in a stainless steel pot for 10 minutes. Add wine heat to a \"coffee temperature\" (DO NOT BOIL) then add the brandy.",
         "ingredients": [
             "Water",
             "Sugar",
-            "Cloves",
+            "partsoves",
             "Cinnamon",
             "Peel - Lemon",
             "Red wine",
@@ -816,11 +797,11 @@ const cocktailList = [
         "type": "Ordinary Drink",
         "image": "http://www.thecocktaildb.com/images/media/drink/3jm41q1493069578.jpg",
         "glass": "Collins glass",
-        "instructions": "Pour amaretto and lime juice over ice in a collins glass. Fill with club soda and serve.",
+        "instructions": "Pour amaretto and lime juice over ice in a collins glass. Fill with partsub soda and serve.",
         "ingredients": [
             "Amaretto",
             "Juice - Lime",
-            "Club soda"
+            "partsub soda"
         ],
         "amounts": [
             "1 1/2 oz",
@@ -892,15 +873,15 @@ const cocktailList = [
         "type": "Coffee / Tea",
         "image": "http://www.thecocktaildb.com/images/media/drink/upusyu1472667977.jpg",
         "glass": "Beer mug",
-        "instructions": "Mix the whisky and Baileys Cream in a beer-glass (at least 50 cl). Fill the rest of the glass with coffee.",
+        "instructions": "Mix the whisky and Baileys Cream in a beer-glass (at least 50 parts). Fill the rest of the glass with coffee.",
         "ingredients": [
             "Whiskey",
             "Bailey's irish cream",
             "Coffee"
         ],
         "amounts": [
-            "4 cl",
-            "8 cl"
+            "4 parts",
+            "8 parts"
         ]
     },
     {
@@ -926,7 +907,7 @@ const cocktailList = [
         "type": "Homemade Liqueur",
         "image": "http://www.thecocktaildb.com/images/media/drink/sih81u1504367097.jpg",
         "glass": "Collins Glass",
-        "instructions": "Boil water, sugar and coffe for 10 mins and let cool. Add rum and vanilla. Put in clean bottle(s) and leave for 1 week before using.",
+        "instructions": "Boil water, sugar and coffe for 10 mins and let cool. Add rum and vanilla. Put in partsean bottle(s) and leave for 1 week before using.",
         "ingredients": [
             "Water",
             "Brown Sugar",
@@ -1066,25 +1047,6 @@ const cocktailList = [
         "amounts": [
             "2 oz",
             "Juice of 1/2"
-        ]
-    },
-    {
-        "id": 212,
-        "name": "Cuba Libra",
-        "type": "Ordinary Drink",
-        "image": "http://www.thecocktaildb.com/images/media/drink/ck6d0p1504388696.jpg",
-        "glass": "Highball glass",
-        "instructions": "Fill tall glass with ice cubes. Add rum. Rub cut edge of lime on rim of glass then squeeze juice into glass. Fill with Coca-Cola. Garnish with lime slice. Enjoy!",
-        "ingredients": [
-            "Rum - Dark",
-            "Lime",
-            "Coke",
-            "Ice"
-        ],
-        "amounts": [
-            "1-2 shot",
-            "Squeeze",
-            "Fill with"
         ]
     },
     {
@@ -1433,7 +1395,7 @@ const cocktailList = [
             "Daiquiri mix"
         ],
         "amounts": [
-            "5 oz Bacardi",
+            "5 oz",
             "frozen",
             "frozen"
         ]
@@ -1455,7 +1417,7 @@ const cocktailList = [
             "2 oz",
             "1/2 oz",
             "1/2 oz",
-            "1 twist of"
+            "1 twist"
         ]
     },
     {
@@ -1487,7 +1449,7 @@ const cocktailList = [
         "type": "Ordinary Drink",
         "image": "http://www.thecocktaildb.com/images/media/drink/qrvtww1441206528.jpg",
         "glass": "Highball glass",
-        "instructions": "Pour brandy, gin, and dry vermouth into a highball glass over ice cubes. Fill with carbonated water and stir. Add the twist of lemon and serve. (Ginger ale may be substituted for carbonated water, if preferred.)",
+        "instructions": "Pour brandy, gin, and dry vermouth into a highball glass over ice cubes. Fill with carbonated water and stir. Add the twist lemon and serve. (Ginger ale may be substituted for carbonated water, if preferred.)",
         "ingredients": [
             "Brandy",
             "Gin",
@@ -1507,7 +1469,7 @@ const cocktailList = [
         "type": "Ordinary Drink",
         "image": "http://www.thecocktaildb.com/images/media/drink/wsyqry1479298485.jpg",
         "glass": "Collins glass",
-        "instructions": "Stir powdered sugar and 2 oz. carbonated water in a collins glass. Fill glass with ice, add gin and vermouth, and stir. Fill with carbonated water and stir again. Add the twist of lemon peel and the orange spiral so that the end dangles over rim of glass.",
+        "instructions": "Stir powdered sugar and 2 oz. carbonated water in a collins glass. Fill glass with ice, add gin and vermouth, and stir. Fill with carbonated water and stir again. Add the twist lemon peel and the orange spiral so that the end dangles over rim of glass.",
         "ingredients": [
             "Water - Soda",
             "Gin",
@@ -1667,10 +1629,10 @@ const cocktailList = [
             "Cream"
         ],
         "amounts": [
-            "1 cl",
-            "1 cl",
+            "1 parts",
+            "1 parts",
             "1 1/2",
-            "4 cl hot"
+            "4 parts hot"
         ]
     },
     {
@@ -1864,13 +1826,13 @@ const cocktailList = [
         "type": "Ordinary Drink",
         "image": "http://www.thecocktaildb.com/images/media/drink/sybce31504884026.jpg",
         "glass": "Highball glass",
-        "instructions": "In a shaker half-filled with ice cubes, combine the lime juice, sugar, gin, and bitters. Shake well. Almost fill a colling glass with ice cubes. Stir until the glass is frosted. Strain the mixture in the shaker into the glass and add the club soda.",
+        "instructions": "In a shaker half-filled with ice cubes, combine the lime juice, sugar, gin, and bitters. Shake well. Almost fill a colling glass with ice cubes. Stir until the glass is frosted. Strain the mixture in the shaker into the glass and add the partsub soda.",
         "ingredients": [
             "Juice - Lime",
             "Sugar",
             "Gin",
             "Bitters",
-            "Club soda"
+            "partsub soda"
         ],
         "amounts": [
             "1 1/2 oz",
@@ -2111,7 +2073,7 @@ const cocktailList = [
         ],
         "amounts": [
             "1 oz",
-            "1 oz Bacardi",
+            "1 oz",
             "1 dash"
         ]
     },
@@ -2167,8 +2129,8 @@ const cocktailList = [
             "Juice - Orange"
         ],
         "amounts": [
-            "2 cl",
-            "2 cl"
+            "2 parts",
+            "2 parts"
         ]
     },
     {
@@ -2222,9 +2184,9 @@ const cocktailList = [
             "Grenadine"
         ],
         "amounts": [
-            "1 cl",
+            "1 parts",
             "4 oz",
-            "1/4 cl"
+            "1/4 parts"
         ]
     },
     {
@@ -2311,7 +2273,7 @@ const cocktailList = [
         "type": "Punch / Party Drink",
         "image": "http://www.thecocktaildb.com/images/media/drink/0fbo2t1485620752.jpg",
         "glass": "Margarita/Coupette glass",
-        "instructions": "Pour 5cl of Cointreau on ice, add 2cl of fresh lemon (or lime) juice, stir gently, and finally add slices of lemon/lime in glass.",
+        "instructions": "Pour 5parts of Cointreau on ice, add 2parts of fresh lemon (or lime) juice, stir gently, and finally add slices of lemon/lime in glass.",
         "ingredients": [
             "Triple Sec",
             "Juice - Lemon",
@@ -2319,8 +2281,8 @@ const cocktailList = [
             "Lemon"
         ],
         "amounts": [
-            "5 cl",
-            "2 cl",
+            "5 parts",
+            "2 parts",
             "cubes",
             "or lime"
         ]
@@ -2540,12 +2502,12 @@ const cocktailList = [
         "type": "Ordinary Drink",
         "image": "http://www.thecocktaildb.com/images/media/drink/wxrsxx1472720734.jpg",
         "glass": "Highball glass",
-        "instructions": "Pour schnapps, orange juice, and cranberry juice over ice in a highball glass. Top with club soda and serve.",
+        "instructions": "Pour schnapps, orange juice, and cranberry juice over ice in a highball glass. Top with partsub soda and serve.",
         "ingredients": [
             "Liqueur - Strawberry",
             "Juice - Orange",
             "Juice - Cranberry",
-            "Club soda"
+            "partsub soda"
         ],
         "amounts": [
             "2 oz",
@@ -2702,7 +2664,7 @@ const cocktailList = [
             "2 oz",
             "1/2 oz",
             "2 tsp",
-            "1 twist of"
+            "1 twist"
         ]
     },
     {
@@ -2716,7 +2678,7 @@ const cocktailList = [
             "Vodka - Citrus",
             "Triple Sec",
             "Juice - Lemon",
-            "Club soda"
+            "partsub soda"
         ],
         "amounts": [
             "2 oz",
@@ -2944,9 +2906,9 @@ const cocktailList = [
             "Juice - Lemon"
         ],
         "amounts": [
-            "4cl",
-            "3cl",
-            "2cl"
+            "4parts",
+            "3parts",
+            "2parts"
         ]
     },
     {
@@ -2968,7 +2930,7 @@ const cocktailList = [
             "2 tsp",
             "1 oz",
             "2 oz",
-            "1 twist of"
+            "1 twist"
         ]
     },
     {
@@ -3214,7 +3176,7 @@ const cocktailList = [
             "1 oz",
             "1/2 oz",
             "3 oz",
-            "1 twist of"
+            "1 twist"
         ]
     },
     {
@@ -3310,8 +3272,8 @@ const cocktailList = [
             "Juice - Orange"
         ],
         "amounts": [
-            "2 cl",
-            "1 cl"
+            "2 parts",
+            "1 parts"
         ]
     },
     {
@@ -3554,13 +3516,13 @@ const cocktailList = [
         "type": "Punch / Party Drink",
         "image": "http://www.thecocktaildb.com/images/media/drink/xrvxpp1441249280.jpg",
         "glass": "Pitcher",
-        "instructions": "Mix all together in a pitcher and refrigerate. Add cloves and cinnamon sticks to taste. Serve in wine glasses.",
+        "instructions": "Mix all together in a pitcher and refrigerate. Add partsoves and cinnamon sticks to taste. Serve in wine glasses.",
         "ingredients": [
             "Wine - Red",
             "Sugar",
             "Juice - Orange",
             "Juice - Lemon",
-            "Cloves",
+            "partsoves",
             "Cinnamon"
         ],
         "amounts": [
@@ -3606,10 +3568,10 @@ const cocktailList = [
             "Salt"
         ],
         "amounts": [
-            "6 cl",
-            "3 cl",
-            "3 cl",
-            "1.5 cl",
+            "6 parts",
+            "3 parts",
+            "3 parts",
+            "1.5 parts",
             "1 dash",
             "1 pinch"
         ]
@@ -3741,9 +3703,9 @@ const cocktailList = [
             "Prosecco"
         ],
         "amounts": [
-            "4.5 cl",
-            "1.5 cl",
-            "6 cl",
+            "4.5 parts",
+            "1.5 parts",
+            "6 parts",
             "1 dash",
             "top up"
         ]
@@ -3772,7 +3734,7 @@ const cocktailList = [
         "type": "Ordinary Drink",
         "image": "http://www.thecocktaildb.com/images/media/drink/vxtjbx1504817842.jpg",
         "glass": "Highball glass",
-        "instructions": "Fill glass with ice and add shots of Bacardi and Malibu. Add splash of pineapple juice and top with orange juice. Add grenadine for color and garnish with cherries.",
+        "instructions": "Fill glass with ice and add shots of rum and coconut rum. Add splash of pineapple juice and top with orange juice. Add grenadine for color and garnish with cherries.",
         "ingredients": [
             "Rum - Strong",
             "Rum - Coconunt",
@@ -3782,27 +3744,9 @@ const cocktailList = [
             "Cherries"
         ],
         "amounts": [
-            "1 shot Bacardi",
+            "1 shot",
             "1 shot",
             "1 shot"
-        ]
-    },
-    {
-        "id": 249,
-        "name": "French Martini",
-        "type": "Cocktail",
-        "image": "http://www.thecocktaildb.com/images/media/drink/clth721504373134.jpg",
-        "glass": "Cocktail glass",
-        "instructions": "Pour all ingredients into shaker with ice cubes. Shake well and strain into a chilled cocktail glass. Squeeze oil from lemon peel onto the drink.",
-        "ingredients": [
-            "Vodka",
-            "Raspberry Liqueur",
-            "Juice - Pineapple"
-        ],
-        "amounts": [
-            "4.5 cl",
-            "1.5 cl",
-            "1.5 cl"
         ]
     },
     {
@@ -3879,10 +3823,10 @@ const cocktailList = [
             "Lavender"
         ],
         "amounts": [
-            "5 cl",
-            "2.5 cl",
-            "2.5 cl",
-            "1.5 cl",
+            "5 parts",
+            "2.5 parts",
+            "2.5 parts",
+            "1.5 parts",
             "2 Dashes",
             "Pinch",
             "2 sprigs"
@@ -4103,7 +4047,7 @@ const cocktailList = [
             "1/2 oz",
             "1/2 oz",
             "wedge",
-            "Bacardi"
+            ""
         ]
     },
     {
@@ -4112,10 +4056,10 @@ const cocktailList = [
         "type": "Ordinary Drink",
         "image": "http://www.thecocktaildb.com/images/media/drink/vtvutr1439465836.jpg",
         "glass": "Old-fashioned glass",
-        "instructions": "In an old-fashioned glass, dissolve the sugar in the club soda. Add crushed ice until the glass is almost full. Add the brandy. Stir well. Garnish with the cherry and the orange and lemon slices.",
+        "instructions": "In an old-fashioned glass, dissolve the sugar in the partsub soda. Add crushed ice until the glass is almost full. Add the brandy. Stir well. Garnish with the cherry and the orange and lemon slices.",
         "ingredients": [
             "Sugar",
-            "Club soda",
+            "partsub soda",
             "Lemon",
             "Brandy",
             "Cherry",
@@ -4133,10 +4077,10 @@ const cocktailList = [
         "type": "Ordinary Drink",
         "image": "http://www.thecocktaildb.com/images/media/drink/5vh9ld1504390683.jpg",
         "glass": "Old-fashioned glass",
-        "instructions": "In an old-fashioned glass, dissolve the sugar in the club soda. Add crushed ice until the glass is almost full. Add the rum. Stir well. Garnish with the cherry and the orange and lemon slices.",
+        "instructions": "In an old-fashioned glass, dissolve the sugar in the partsub soda. Add crushed ice until the glass is almost full. Add the rum. Stir well. Garnish with the cherry and the orange and lemon slices.",
         "ingredients": [
             "Sugar",
-            "Club soda",
+            "partsub soda",
             "Lemon",
             "Dark rum",
             "Cherry",
@@ -4190,7 +4134,7 @@ const cocktailList = [
     },
     {
         "id": 202,
-        "name": "Clover Club",
+        "name": "partsover partsub",
         "type": "Ordinary Drink",
         "image": "http://www.thecocktaildb.com/images/media/drink/t0aja61504348715.jpg",
         "glass": "Cocktail glass",
@@ -4361,45 +4305,12 @@ const cocktailList = [
             "Lillet Blanc"
         ],
         "amounts": [
-            "6 cl",
-            "1.5 cl",
-            "0.75 cl"
+            "6 parts",
+            "1.5 parts",
+            "0.75 parts"
         ]
     },
-    {
-        "id": 225,
-        "name": "Dragonfly",
-        "type": "Ordinary Drink",
-        "image": "http://www.thecocktaildb.com/images/media/drink/lnvbip1504389100.jpg",
-        "glass": "Highball glass",
-        "instructions": "In a highball glass almost filled with ice cubes, combine the gin and ginger ale. Stir well. Garnish with the lime wedge.",
-        "ingredients": [
-            "Gin",
-            "Ginger ale",
-            "Lime"
-        ],
-        "amounts": [
-            "1 1/2 oz",
-            "4 oz"
-        ]
-    },
-    {
-        "id": 287,
-        "name": "Happy Skipper",
-        "type": "Ordinary Drink",
-        "image": "http://www.thecocktaildb.com/images/media/drink/42w2g41487602448.jpg",
-        "glass": "Highball glass",
-        "instructions": "Pour Captain Morgan's Spiced Rum over ice, fill glass to top with Ginger Ale. Garnish with lime. Tastes like a cream soda. Named for the Gilligan's Island reference (\"The Captain\" *in* \"Ginger\" is a Happy Skipper!)",
-        "ingredients": [
-            "Rum - Spiced",
-            "Ginger ale",
-            "Lime",
-            "Ice"
-        ],
-        "amounts": [
-            "1 1/2 cl"
-        ]
-    },
+    
     {
         "id": 181,
         "name": "California Lemonade",
@@ -4523,7 +4434,7 @@ const cocktailList = [
         "type": "Ordinary Drink",
         "image": "http://www.thecocktaildb.com/images/media/drink/4u0nbl1504352551.jpg",
         "glass": "Cocktail glass",
-        "instructions": "Stir all ingredients with ice and strain into a cocktail glass. Garnish with a cherry and a twist of lemon zest.",
+        "instructions": "Stir all ingredients with ice and strain into a cocktail glass. Garnish with a cherry and a twist lemon zest.",
         "ingredients": [
             "Dry Vermouth",
             "Gin",
@@ -4573,9 +4484,9 @@ const cocktailList = [
             "Liqueur - Cherry"
         ],
         "amounts": [
-            "4.5 cl",
-            "1.5 cl",
-            "1.5 cl"
+            "4.5 parts",
+            "1.5 parts",
+            "1.5 parts"
         ]
     },
     {
@@ -4813,7 +4724,7 @@ const cocktailList = [
             "Mint"
         ],
         "amounts": [
-            "6 cl",
+            "6 parts",
             "2 dashes",
             "2 Fresh leaves"
         ]
@@ -4926,13 +4837,13 @@ const cocktailList = [
             "Southern Comfort",
             "Passion fruit syrup",
             "Sweet and sour",
-            "Club soda"
+            "partsub soda"
         ],
         "amounts": [
-            "2 cl Smirnoff",
-            "2 cl",
-            "2 cl",
-            "6 cl",
+            "2 parts Smirnoff",
+            "2 parts",
+            "2 parts",
+            "6 parts",
             "1 dash"
         ]
     },
@@ -5010,7 +4921,7 @@ const cocktailList = [
         "amounts": [
             "3 oz",
             "1/2 oz",
-            "1 twist of"
+            "1 twist"
         ]
     },
     {
@@ -5028,7 +4939,7 @@ const cocktailList = [
         "amounts": [
             "1 1/2 oz",
             "1/2 oz",
-            "1 twist of"
+            "1 twist"
         ]
     },
     {
@@ -5046,7 +4957,7 @@ const cocktailList = [
         "amounts": [
             "2 1/2 oz",
             "1 1/2 tsp",
-            "1 twist of"
+            "1 twist"
         ]
     },
     {
@@ -5064,7 +4975,7 @@ const cocktailList = [
         "amounts": [
             "2 oz",
             "4 oz",
-            "1 twist of"
+            "1 twist"
         ]
     },
     {
@@ -5073,7 +4984,7 @@ const cocktailList = [
         "type": "Ordinary Drink",
         "image": "http://www.thecocktaildb.com/images/media/drink/athdk71504886286.jpg",
         "glass": "Old-fashioned glass",
-        "instructions": "Dissolve powdered sugar in water in an old-fashioned glass. Add rum and one ice cube and stir. Add the twist of lemon peel and serve.",
+        "instructions": "Dissolve powdered sugar in water in an old-fashioned glass. Add rum and one ice cube and stir. Add the twist lemon peel and serve.",
         "ingredients": [
             "Rum",
             "Sugar",
@@ -5083,7 +4994,7 @@ const cocktailList = [
         "amounts": [
             "2 oz light or dark",
             "2 tsp",
-            "1 twist of",
+            "1 twist",
             "2 tsp"
         ]
     },
@@ -5093,7 +5004,7 @@ const cocktailList = [
         "type": "Ordinary Drink",
         "image": "http://www.thecocktaildb.com/images/media/drink/xvswvy1441209430.jpg",
         "glass": "Cocktail glass",
-        "instructions": "Stir sloe gin and vermouth with ice and strain into a cocktail glass. Add the twist of lemon peel and serve.",
+        "instructions": "Stir sloe gin and vermouth with ice and strain into a cocktail glass. Add the twist lemon peel and serve.",
         "ingredients": [
             "Sweet Vermouth",
             "Gin",
@@ -5102,7 +5013,7 @@ const cocktailList = [
         "amounts": [
             "1 oz",
             "1 1/2 oz",
-            "1 twist of"
+            "1 twist"
         ]
     },
     {
@@ -5164,7 +5075,7 @@ const cocktailList = [
             "2 dashes",
             "1 tsp",
             "2 oz",
-            "1 twist of"
+            "1 twist"
         ]
     },
     {
@@ -5254,7 +5165,7 @@ const cocktailList = [
             "1/2 oz",
             "1/2 oz",
             "1 dash",
-            "Twist of"
+            "twist"
         ]
     },
     {
@@ -5277,7 +5188,7 @@ const cocktailList = [
         "amounts": [
             "1/2 oz",
             "1/2 oz",
-            "1/2 oz Bacardi",
+            "1/2 oz",
             "1 oz",
             "1 oz",
             "3 oz",
@@ -5291,7 +5202,7 @@ const cocktailList = [
         "type": "Shot",
         "image": "http://www.thecocktaildb.com/images/media/drink/d30z931503565384.jpg",
         "glass": "Collins Glass",
-        "instructions": "Add Amaretto, Bacardi, and vodka. Mix in the Dr. Pepper and beer",
+        "instructions": "Add Amaretto, rum, and vodka. Mix in the Dr. Pepper and beer",
         "ingredients": [
             "Amaretto",
             "Vodka",
@@ -5302,7 +5213,7 @@ const cocktailList = [
         "amounts": [
             "1 oz",
             "1 oz",
-            "1 oz Bacardi",
+            "1 oz",
             "1 oz",
             "1 oz"
         ]
@@ -5324,7 +5235,7 @@ const cocktailList = [
             "1/2 oz",
             "1/2 oz",
             "1/2 oz",
-            "1/2 oz Bacardi"
+            "1/2 oz"
         ]
     },
     {
@@ -5415,10 +5326,10 @@ const cocktailList = [
             "Juice - Lemon"
         ],
         "amounts": [
-            "2.5 cl",
-            "1.5 cl",
-            "1 cl",
-            "2.5 cl"
+            "2.5 parts",
+            "1.5 parts",
+            "1 parts",
+            "2.5 parts"
         ]
     },
     {
@@ -5434,8 +5345,8 @@ const cocktailList = [
             "Simple Syrup"
         ],
         "amounts": [
-            "5 cl",
-            "1 cl",
+            "5 parts",
+            "1 parts",
             "1 dash"
         ]
     },
@@ -5453,10 +5364,10 @@ const cocktailList = [
             "Creme de Mure"
         ],
         "amounts": [
-            "4 cl",
-            "1.5 cl",
-            "1 cl",
-            "1.5 cl"
+            "4 parts",
+            "1.5 parts",
+            "1 parts",
+            "1.5 parts"
         ]
     },
     {
@@ -5473,7 +5384,7 @@ const cocktailList = [
             "Grenadine"
         ],
         "amounts": [
-            "1 3/4 oz Bacardi",
+            "1 3/4 oz",
             "1 oz",
             "1/2 tsp",
             "1 dash"
@@ -5620,7 +5531,7 @@ const cocktailList = [
         "type": "Ordinary Drink",
         "image": "http://www.thecocktaildb.com/images/media/drink/otn2011504820649.jpg",
         "glass": "Old-fashioned glass",
-        "instructions": "Stir powdered sugar, water, and bitters in an old-fashioned glass. When sugar has dissolved add ice cubes and light rum. Add the twist of lime peel, float 151 proof rum on top, and serve.",
+        "instructions": "Stir powdered sugar, water, and bitters in an old-fashioned glass. When sugar has dissolved add ice cubes and light rum. Add the twist lime peel, float 151 proof rum on top, and serve.",
         "ingredients": [
             "Rum - Light",
             "Rum - Strong",
@@ -5635,7 +5546,7 @@ const cocktailList = [
             "1/2 tsp",
             "1 dash",
             "1 tsp",
-            "Twist of"
+            "twist"
         ]
     },
     {
@@ -5652,7 +5563,7 @@ const cocktailList = [
             "Water"
         ],
         "amounts": [
-            "4.5 cL",
+            "4.5 parts",
             "2 dashes",
             "1 cube",
             "dash"
@@ -5672,7 +5583,7 @@ const cocktailList = [
         ],
         "amounts": [
             "1 cup",
-            "4 cl",
+            "4 parts",
             "By taste"
         ]
     },
@@ -5826,7 +5737,7 @@ const cocktailList = [
         "type": "Ordinary Drink",
         "image": "http://www.thecocktaildb.com/images/media/drink/h8wmm41504883440.jpg",
         "glass": "Old-fashioned glass",
-        "instructions": "Dissolve powdered sugar in mixture of water and juice of lemon. Add gin. Pour into an old-fashioned glass over ice cubes and stir. Add the twist of orange peel and serve.",
+        "instructions": "Dissolve powdered sugar in mixture of water and juice of lemon. Add gin. Pour into an old-fashioned glass over ice cubes and stir. Add the twist orange peel and serve.",
         "ingredients": [
             "Gin",
             "Lemon",
@@ -5839,7 +5750,7 @@ const cocktailList = [
             "Juice of 1/2",
             "1 tsp",
             "1 tsp",
-            "Twist of"
+            "twist"
         ]
     },
     {
@@ -5934,7 +5845,7 @@ const cocktailList = [
         "type": "Ordinary Drink",
         "image": "http://www.thecocktaildb.com/images/media/drink/61wgch1504882795.jpg",
         "glass": "Whiskey sour glass",
-        "instructions": "Shake blended whiskey, juice of lemon, and powdered sugar with ice and strain into a whiskey sour glass. Float claret on top. Decorate with the half-slice of lemon and the cherry and serve.",
+        "instructions": "Shake blended whiskey, juice of lemon, and powdered sugar with ice and strain into a whiskey sour glass. Float partsaret on top. Decorate with the half-slice of lemon and the cherry and serve.",
         "ingredients": [
             "Whiskey",
             "Lemon",
@@ -5947,7 +5858,7 @@ const cocktailList = [
             "2 oz",
             "Juice of 1/2",
             "1 tsp",
-            "(Claret)"
+            "(partsaret)"
         ]
     },
     {
@@ -6002,7 +5913,7 @@ const cocktailList = [
             "Bourbon",
             "Juice - Lemon",
             "Sugar",
-            "Club soda",
+            "partsub soda",
             "Cherry",
             "Orange"
         ],
@@ -6061,12 +5972,12 @@ const cocktailList = [
         "type": "Ordinary Drink",
         "image": "http://www.thecocktaildb.com/images/media/drink/qystvv1439907682.jpg",
         "glass": "Collins glass",
-        "instructions": "In a shaker half-filled with ice cubes, combine the gin, lemon juice, and sugar. Shake well. Strain into a collins glass alomst filled with ice cubes. Add the club soda. Stir and garnish with the cherry and the orange slice.",
+        "instructions": "In a shaker half-filled with ice cubes, combine the gin, lemon juice, and sugar. Shake well. Strain into a collins glass alomst filled with ice cubes. Add the partsub soda. Stir and garnish with the cherry and the orange slice.",
         "ingredients": [
             "Gin",
             "Juice - Lemon",
             "Sugar",
-            "Club soda",
+            "partsub soda",
             "Cherry",
             "Orange"
         ],
@@ -6272,7 +6183,7 @@ const cocktailList = [
             "Sugar"
         ],
         "amounts": [
-            "4 cl",
+            "4 parts",
             "Turkish apple",
             "(if needed)"
         ]
@@ -6301,7 +6212,7 @@ const cocktailList = [
     },
     {
         "id": 200,
-        "name": "Classic Old-Fashioned",
+        "name": "partsassic Old-Fashioned",
         "type": "Ordinary Drink",
         "image": "http://www.thecocktaildb.com/images/media/drink/anhof61504366173.jpg",
         "glass": "Old-fashioned glass",
@@ -6326,7 +6237,7 @@ const cocktailList = [
         "type": "Ordinary Drink",
         "image": "http://www.thecocktaildb.com/images/media/drink/l9gi5h1504820724.jpg",
         "glass": "Old-fashioned glass",
-        "instructions": "Mix powdered sugar and water in an old-fashioned glass. Add gin and one ice cube. Stir, add the twist of lemon peel, and serve.",
+        "instructions": "Mix powdered sugar and water in an old-fashioned glass. Add gin and one ice cube. Stir, add the twist lemon peel, and serve.",
         "ingredients": [
             "Gin",
             "Water",
@@ -6337,7 +6248,7 @@ const cocktailList = [
             "2 oz",
             "2 tsp",
             "1/2 tsp",
-            "1 twist of"
+            "1 twist"
         ]
     },
     {
@@ -6378,7 +6289,7 @@ const cocktailList = [
     },
     {
         "id": 260,
-        "name": "Gentleman's Club",
+        "name": "Gentleman's partsub",
         "type": "Ordinary Drink",
         "image": "http://www.thecocktaildb.com/images/media/drink/ezvy1c1504883335.jpg",
         "glass": "Old-fashioned glass",
@@ -6387,7 +6298,7 @@ const cocktailList = [
             "Gin",
             "Brandy",
             "Sweet Vermouth",
-            "Club soda"
+            "partsub soda"
         ],
         "amounts": [
             "1 1/2 oz",
@@ -6420,7 +6331,7 @@ const cocktailList = [
         "type": "Ordinary Drink",
         "image": "http://www.thecocktaildb.com/images/media/drink/dhvr7d1504519752.jpg",
         "glass": "Highball glass",
-        "instructions": "Pour brandy, gin, and sweet vermouth into a highball glass over ice cubes. Fill with carbonated water. Add the twist of lemon peel, stir, and serve. (Ginger ale may be substituted for carbonated water, if preferred.)",
+        "instructions": "Pour brandy, gin, and sweet vermouth into a highball glass over ice cubes. Fill with carbonated water. Add the twist lemon peel, stir, and serve. (Ginger ale may be substituted for carbonated water, if preferred.)",
         "ingredients": [
             "Brandy",
             "Gin",
@@ -6517,7 +6428,7 @@ const cocktailList = [
             "2 part",
             "1 part",
             "2 shots",
-            "Float Bacardi"
+            "Float"
         ]
     },
     {
@@ -6672,9 +6583,9 @@ const cocktailList = [
             "Sprite"
         ],
         "amounts": [
-            "2 cl",
-            "1 cl",
-            "1 cl",
+            "2 parts",
+            "1 parts",
+            "1 parts",
             "Fill with"
         ]
     },
@@ -6713,10 +6624,10 @@ const cocktailList = [
             "Juice - Lime"
         ],
         "amounts": [
-            "3 cl",
-            "1.5 cl",
-            "1.5 cl",
-            "1.5 cl"
+            "3 parts",
+            "1.5 parts",
+            "1.5 parts",
+            "1.5 parts"
         ]
     },
     {
@@ -6832,10 +6743,10 @@ const cocktailList = [
             "Sweet and sour"
         ],
         "amounts": [
-            "1 1/2 cl",
-            "1 1/2 cl",
-            "1 1/2 cl",
-            "3 cl"
+            "1 1/2 parts",
+            "1 1/2 parts",
+            "1 1/2 parts",
+            "3 parts"
         ]
     },
     {
@@ -6919,7 +6830,7 @@ const cocktailList = [
             "1/2 oz",
             "1/2 oz",
             "2 dashes",
-            "1 twist of"
+            "1 twist"
         ]
     },
     {
@@ -7156,7 +7067,7 @@ const cocktailList = [
             "Triple Sec",
             "Cherry Grenadine",
             "Sweet and sour",
-            "Club soda"
+            "partsub soda"
         ],
         "amounts": [
             "1 oz",
@@ -7305,8 +7216,8 @@ const cocktailList = [
             "Water - Soda"
         ],
         "amounts": [
-            "6 cl",
-            "4 cl",
+            "6 parts",
+            "4 parts",
             "splash"
         ]
     },
@@ -7376,7 +7287,7 @@ const cocktailList = [
             "Water - Soda"
         ],
         "amounts": [
-            "4 cl",
+            "4 parts",
             "1 dash"
         ]
     },
@@ -7447,9 +7358,9 @@ const cocktailList = [
             "White Creme de Menthe"
         ],
         "amounts": [
-            "2 cl",
-            "2 cl",
-            "2 cl"
+            "2 parts",
+            "2 parts",
+            "2 parts"
         ]
     },
     {
@@ -7473,7 +7384,7 @@ const cocktailList = [
     },
     {
         "id": 201,
-        "name": "Clove Cocktail",
+        "name": "partsove Cocktail",
         "type": "Ordinary Drink",
         "image": "http://www.thecocktaildb.com/images/media/drink/qxvtst1461867579.jpg",
         "glass": "Cocktail glass",
@@ -7495,7 +7406,7 @@ const cocktailList = [
         "type": "Ordinary Drink",
         "image": "http://www.thecocktaildb.com/images/media/drink/wsyryt1483387720.jpg",
         "glass": "Cocktail glass",
-        "instructions": "Stir all ingredients with ice, strain contents into a cocktail glass. Drop in a twist of lemon and serve.",
+        "instructions": "Stir all ingredients with ice, strain contents into a cocktail glass. Drop in a twist lemon and serve.",
         "ingredients": [
             "Bitters - Orange",
             "Gin",
@@ -7506,7 +7417,7 @@ const cocktailList = [
             "2 dashes",
             "1 1/2 oz",
             "3/4 oz",
-            "Twist of"
+            "twist"
         ]
     },
     {
@@ -7651,8 +7562,8 @@ const cocktailList = [
             "Juice - Apple"
         ],
         "amounts": [
-            "4 cl",
-            "16 cl"
+            "4 parts",
+            "16 parts"
         ]
     },
     {
@@ -7772,7 +7683,7 @@ const cocktailList = [
         "type": "Soft Drink / Soda",
         "image": "http://www.thecocktaildb.com/images/media/drink/uyrvut1479473214.jpg",
         "glass": "Highball Glass",
-        "instructions": "Pour half of coke in a glass. Then add Bacardi and top it off with the remaining coke. Stir and drink up!",
+        "instructions": "Pour half of coke in a glass. Then add rum and top it off with the remaining coke. Stir and drink up!",
         "ingredients": [
             "Rum - Light",
             "Coke"
@@ -7855,7 +7766,7 @@ const cocktailList = [
         "instructions": "pour it in and mix it.",
         "ingredients": [
             "Coffee",
-            "Everclear"
+            "Everpartsear"
         ],
         "amounts": [
             "3 parts",
@@ -7915,14 +7826,14 @@ const cocktailList = [
         "type": "Ordinary Drink",
         "image": "http://www.thecocktaildb.com/images/media/drink/t1tn0s1504374905.jpg",
         "glass": "Highball glass",
-        "instructions": "In a highball glass filled with ice add 6cl dark rum and top with ginger beer. Garnish with lime wedge.",
+        "instructions": "In a highball glass filled with ice add 6parts dark rum and top with ginger beer. Garnish with lime wedge.",
         "ingredients": [
             "Rum - Dark",
             "Ginger Beer"
         ],
         "amounts": [
-            "5 cl",
-            "10 cl"
+            "5 parts",
+            "10 parts"
         ]
     },
     {
@@ -8444,7 +8355,7 @@ const cocktailList = [
             "Bourbon"
         ],
         "amounts": [
-            "1/2 shot Bacardi",
+            "1/2 shot",
             "1/2 shot"
         ]
     },
@@ -8460,7 +8371,7 @@ const cocktailList = [
             "Bourbon"
         ],
         "amounts": [
-            "1 oz Bacardi",
+            "1 oz ",
             "1 oz"
         ]
     },

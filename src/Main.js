@@ -4,7 +4,7 @@ import ExampleModal from './Modal';
 import { useState } from 'react'
 import { toggleItem } from './functions/toggleItem';
 import { cocktails, mixers } from './data/arrays';
-import { renderCocktail } from './functions/renderCocktail';
+import { renderCocktail, renderMixer } from './functions/renderCocktail';
 
 const Trial = () => {
   const [list, setList] = React.useState([])
@@ -25,14 +25,17 @@ const Trial = () => {
     renderCocktail(cocktail, cocktail, liquor)
   );
 
-  const renderedMixers = mixers.map((mixer) =>
+  const renderedMixers = mixers.map((mixer) => {
     //when you fix the images, change the name of vodka to mixer
-    renderCocktail("vodka", mixer, mixerX)
+    console.log(mixer.split(' ')[0])
+    return renderMixer(mixer.split(' ')[0], mixer, mixerX)
+  }
+
   );
 
     return (
       <div className="col-try">
-        <Stack  >
+        <Stack  width="44%">
           <Stack mx="auto" direction="row"  alignItems="center" flexWrap="wrap" justifyContent="center">
               <Box>
                 <h1 className="title">CHOOSE YOUR LIQUOR</h1>
