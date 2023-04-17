@@ -1,10 +1,10 @@
 import { Button, Modal, ModalOverlay, ModalContent, ModalHeader, ModalFooter, ModalBody, useDisclosure, filter } from '@chakra-ui/react'
 import React from 'react'
 import { Box } from '@chakra-ui/react'
-import myCocktailData from './myCocktailData'
+import myCocktailData from './data/myCocktailData'
 import { useState } from 'react'
 
-function ExampleModal({list}) {
+function ExampleModal({list, mixers}) {
   const { isOpen: isOpenOuter, onOpen: onOpenOuter, onClose: onCloseOuter } = useDisclosure()
   const { isOpen: isOpenInner, onOpen: onOpenInner, onClose: onCloseInner } = useDisclosure()
   const [filteredDrinks, setFilteredDrinks] = useState([])
@@ -21,7 +21,7 @@ function ExampleModal({list}) {
         })
     }) 
     setFilteredDrinks([...new Set(arrayList)])
-    console.log(arrayList)
+    console.log(mixers)
     }
 
     const renderedCocktails = filteredDrinks.map((cocktail) => {  
