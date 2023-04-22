@@ -273,7 +273,8 @@ const cocktailList = [
         "ingredients": [
             "Dry Vermouth",
             "Gin",
-            "Benedictine"
+            "Benedictine",
+            "Juice - Lemon"
         ],
         "amounts": [
             "1/2 oz",
@@ -281,7 +282,24 @@ const cocktailList = [
             "1 1/2 tsp"
         ]
     },
-    
+    {
+    "id": 123456,
+"name": "Between the Sheets of Pleasure",
+"type": "Cocktail",
+"glass": "Martini glass",
+"instructions": "Shake all ingredients with ice and strain into a chilled martini glass.",
+"ingredients": [
+"Brandy",
+"Light rum",
+"Triple sec",
+"Lemon juice"
+],
+"amounts": [
+"3/4 oz",
+"3/4 oz",
+"3/4 oz",
+"1/2 oz"
+]},
     {
         "id": 100,
         "name": "Archbishop",

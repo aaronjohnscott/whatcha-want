@@ -38,7 +38,7 @@ const Trial = () => {
         <Stack  width="44%">
           <Stack mx="auto" direction="row"  alignItems="center" flexWrap="wrap" justifyContent="center">
               <Box>
-                <h1 className="title">CHOOSE YOUR LIQUOR</h1>
+                <h1 className="title">SELECT LIQUORS</h1>
               </Box>
           </Stack>
           <Stack mx="auto" direction="row"  alignItems="center" flexWrap="wrap" justifyContent="center">
@@ -53,7 +53,7 @@ const Trial = () => {
         <Stack width="44%">
           <Stack mx="auto" direction="row" alignItems="center" flexWrap="wrap" justifyContent="center">
               <Box>
-                <h1 className="title">CHOOSE YOUR MIXERS</h1>
+                <h1 className="title">SELECT MIXERS</h1>
               </Box>
           </Stack>
 

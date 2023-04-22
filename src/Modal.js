@@ -2,11 +2,13 @@ import { Button, Modal, Text, Image, Flex, Box, ModalOverlay, ModalContent, Moda
 import React from 'react'
 import cocktailList from './data/myCocktailData'
 import { useState } from 'react'
+import { render } from '@testing-library/react'
 
 
 const ExampleModal = ({list, mixers}) => {
   const { isOpen: isOpenOuter, onOpen: onOpenOuter, onClose: onCloseOuter } = useDisclosure()
   const { isOpen: isOpenInner, onOpen: onOpenInner, onClose: onCloseInner } = useDisclosure()
+  const [anyDrinks, setAnyDrinks] = useState(false)
   const [filteredDrinks, setFilteredDrinks] = useState([])
   const [innerDrink, setInnerDrink] = useState({ingredients: [], amounts: []})
   const ingredients = innerDrink.ingredients.map((ingredient) => {
@@ -45,7 +47,6 @@ const ExampleModal = ({list, mixers}) => {
         }
         return null
       })
-      console.log(filteredMixers)
       const finalList = []
       arrayList.map((drink) => {
         const secondArray = drink.ingredients
@@ -56,13 +57,12 @@ const ExampleModal = ({list, mixers}) => {
             }
           }
         }
-
-
         return null
       })
-      if(finalList.length === 0) { setFilteredDrinks([...new Set(arrayList)]) } else {
+      if( mixers.length === 0) { setFilteredDrinks([...new Set(arrayList)]) } else {
         setFilteredDrinks([...new Set(finalList)])
       }
+
     }
 
     const renderedCocktails = filteredDrinks.map((cocktail) => {  
@@ -77,7 +77,7 @@ const ExampleModal = ({list, mixers}) => {
       })
 
 
-
+    
   return (
     <>
       {/* Search Button */}
@@ -101,9 +101,15 @@ const ExampleModal = ({list, mixers}) => {
           <ModalBody> 
 
             {/* FIRST MODAL BODY */}
+              { filteredDrinks.length === 0 ?
             <div className="inner-modal-flex">
-                    {renderedCocktails}
+              <Text textAlign="center" fontSize="2xl">No Drinks Found</Text>
+            </div> :
+            <div className="inner-modal-flex">
+              {renderedCocktails}
             </div>
+            }
+
 
             {/* SECOND MODAL  - MODAL WITHIN A MODAL  */}
             <Modal isOpen={isOpenInner} onClose={onCloseInner} size="3xl">
